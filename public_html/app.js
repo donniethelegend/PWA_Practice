@@ -6,7 +6,7 @@ window.addEventListener('load', e=> {
     
     });
     async function updateNews(){
-        const res  = await fetch(`https://newsapi.org/v2/everything?q=tesla&from=2021-04-02&sortBy=publishedAt&apiKey=${apikey}`) 
+        const res  = await fetch(`https://newsapi.org/v2/everything?q=tesla&from=2021-04-03&sortBy=publishedAt&apiKey=${apikey}`) 
         const json = await res.json();
         
    
